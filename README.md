@@ -27,16 +27,6 @@ Tests state machines via sequences of command objects. Each command:
   +----------+
 ```
 
-## Installation
-
-Add to your `Cargo.toml`:
-
-```toml
-[dependencies]
-madhouse = { git = "https://github.com/moodmosaic/madhouse.git", rev = "6ebe9794e5e38f0eaa6b8a40d51a2190c3c00a7f" }
-proptest = { git = "https://github.com/moodmosaic/proptest.git", rev = "c9bdf18c232665b2b740c667c81866b598d06dc7" }
-```
-
 ## Usage
 
 ```rust
